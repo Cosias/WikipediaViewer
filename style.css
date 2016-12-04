@@ -1,0 +1,67 @@
+.form-control::-webkit-input-placeholder {text-align: center; }
+.form-control:-moz-placeholder { text-align: center; }
+.form-control::-moz-placeholder { text-align: center; }
+.form-control:-ms-input-placeholder { text-align: center; }
+
+input{
+	text-align: center;
+}
+
+#header{
+	font-family: serif; 
+	text-align:center;
+	margin-top: 3%;
+}
+
+#header h1{
+	margin-bottom: 3%;
+}
+
+#display{
+	margin-top: 3%;
+	font-family: serif;
+}
+
+#randBtn{
+	margin-top:6%; 
+	margin-bottom: 3%;
+	font-weight: bold;
+	color: #a1a4a8;
+}
+
+#logo{
+	position: relative;
+	display: inline-block;
+}
+
+#output li{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	list-style-type: none;
+}
+
+#output{
+	padding-left: 0%;
+	margin-top: 6%;
+}
+
+#output li a{
+	font-weight: bold;
+	margin-left: 0.5%;
+}
+
+#output p{
+	margin-left: 2%;
+	margin-top: 1%;
+}
+
+#refreshBtn{
+	border-style: none;
+	background-color: transparent;
+	outline: none;
+}
+
+#removeBtn{
+	outline: none;
+	background-color: transparent;
+}
