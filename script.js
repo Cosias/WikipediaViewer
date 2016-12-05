@@ -6,7 +6,7 @@ function searchBtn(){
   $.getJSON(apiUrl, function(data){
 		$(output).html('');
 		data[1].forEach(function(info,x){
-			$("#output").append('<li class = "well"><a href ='+ data[3][x]+'>'+info+'</a><p>'+data[2][x]+'</p></li>');
+			$("#output").append('<li class = "well"><a href ='+ data[3][x]+' target ="_blank" >'+info+'</a><p>'+data[2][x]+'</p></li>');
 		});
 	})
 }//Searches wikipedia and updates page results 
